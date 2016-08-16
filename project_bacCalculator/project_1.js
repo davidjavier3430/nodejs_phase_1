@@ -24,7 +24,7 @@ var valueSelect = process.argv[2];
 
    if (resultBac >= 0.08) {
      console.log(Name + " your (Blood Alcohol Content) is: " + resultBac.toString().slice(0,4) + "%" + " Legally Drunk Driver".red);
-   } else if (valueSelect === "help") {
+   } else if (resultBac <= 0.08) {
 
    } {
      console.log(Name + " your (Blood Alcohol Content) is: " + resultBac.toString().slice(0,4) + "%" + " Safe driver".green);
